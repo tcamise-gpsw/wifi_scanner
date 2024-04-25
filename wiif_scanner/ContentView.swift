@@ -11,14 +11,14 @@ import Foundation
 struct ContentView: View {
     @ObservedObject var viewModel: ContentViewModel
     var body: some View {
-        Button (action: self.viewModel.onScanForNetworks) {
+        Button (action: viewModel.onScanForNetworks) {
             Text("Scan for WiFi networks")
         }
         VStack {
             Image(systemName: "globe")
                 .imageScale(.large)
                 .foregroundStyle(.tint)
-            Text(self.viewModel.text)
+            Text(viewModel.text)
         }
         .padding()
         .onAppear() {viewModel.onInitWifiScanner()}

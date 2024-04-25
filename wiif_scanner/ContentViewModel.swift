@@ -33,26 +33,23 @@ class WifiScanner : NSObject, CLLocationManagerDelegate{
             break
             
         case .notDetermined:        // Authorization not determined yet.
-           print("Requesting location authorization")
-           manager.requestAlwaysAuthorization()
-           isReady = true
-           break
+            print("Requesting location authorization")
+            manager.requestAlwaysAuthorization()
+            isReady = true
+            break
             
         default:
             break
         }
     }
-
+    
     func scan() -> [String] {
-        let client = CWWiFiClient.shared()
-        guard let interface = client.interface() else {
-            print("Not able to find default interface")
+        guard let interface = CWWiFiClient.shared().interface() else {
+            print("Not able to find shared WiFi interface")
             return [""]
         }
-        print(interface)
         do {
-            let networks = try interface.scanForNetworks(withName: nil)
-            let ssids = networks.map({$0.ssid ?? "Unknown"})            
+            let ssids = try interface.scanForNetworks(withName: nil).map({$0.ssid ?? "Unknown"})
             ssids.forEach({print($0)})
             return ssids
         } catch let error as NSError {
@@ -61,21 +58,20 @@ class WifiScanner : NSObject, CLLocationManagerDelegate{
         }
     }
 }
+
 class ContentViewModel: ObservableObject {
     @Published var text: String = "Awaiting location service authorization"
     var scanner: WifiScanner? = nil
     
     func onInitWifiScanner() {
-        scanner = WifiScanner() { [self] in text="Location services have been authorized"}
+        scanner = WifiScanner() { self.text="Location services have been authorized"}
     }
     
     func onScanForNetworks() {
-        guard let s = scanner else {
-            return
-        }
-        if !(s.isReady) {
+        guard let scanner = scanner else { return }
+        if !(scanner.isReady) {
             text = "Location Services have not been authorized"
         }
-        text = s.scan().joined(separator: "\n")
+        text = scanner.scan().joined(separator: "\n")
     }
 }
