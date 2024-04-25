@@ -9,9 +9,10 @@ import SwiftUI
 
 @main
 struct wiif_scannerApp: App {
+    let viewModel = ContentViewModel()
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            ContentView(viewModel: viewModel)
         }
     }
 }
