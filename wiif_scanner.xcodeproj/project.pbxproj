@@ -1,0 +1,578 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F01F55FB2BDAC57C004884C8 /* wiif_scannerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F01F55FA2BDAC57C004884C8 /* wiif_scannerApp.swift */; };
+		F01F55FD2BDAC57C004884C8 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F01F55FC2BDAC57C004884C8 /* ContentView.swift */; };
+		F01F55FF2BDAC57D004884C8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F01F55FE2BDAC57D004884C8 /* Assets.xcassets */; };
+		F01F56022BDAC57D004884C8 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F01F56012BDAC57D004884C8 /* Preview Assets.xcassets */; };
+		F01F560D2BDAC57E004884C8 /* wiif_scannerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F01F560C2BDAC57E004884C8 /* wiif_scannerTests.swift */; };
+		F01F56172BDAC57E004884C8 /* wiif_scannerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F01F56162BDAC57E004884C8 /* wiif_scannerUITests.swift */; };
+		F01F56192BDAC57E004884C8 /* wiif_scannerUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F01F56182BDAC57E004884C8 /* wiif_scannerUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F01F56092BDAC57E004884C8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F01F55EF2BDAC57C004884C8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F01F55F62BDAC57C004884C8;
+			remoteInfo = wiif_scanner;
+		};
+		F01F56132BDAC57E004884C8 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F01F55EF2BDAC57C004884C8 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F01F55F62BDAC57C004884C8;
+			remoteInfo = wiif_scanner;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F01F55F72BDAC57C004884C8 /* wiif_scanner.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = wiif_scanner.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F01F55FA2BDAC57C004884C8 /* wiif_scannerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = wiif_scannerApp.swift; sourceTree = "<group>"; };
+		F01F55FC2BDAC57C004884C8 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F01F55FE2BDAC57D004884C8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F01F56012BDAC57D004884C8 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F01F56032BDAC57D004884C8 /* wiif_scanner.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = wiif_scanner.entitlements; sourceTree = "<group>"; };
+		F01F56082BDAC57E004884C8 /* wiif_scannerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = wiif_scannerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F01F560C2BDAC57E004884C8 /* wiif_scannerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = wiif_scannerTests.swift; sourceTree = "<group>"; };
+		F01F56122BDAC57E004884C8 /* wiif_scannerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = wiif_scannerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F01F56162BDAC57E004884C8 /* wiif_scannerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = wiif_scannerUITests.swift; sourceTree = "<group>"; };
+		F01F56182BDAC57E004884C8 /* wiif_scannerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = wiif_scannerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F01F55F42BDAC57C004884C8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F01F56052BDAC57E004884C8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F01F560F2BDAC57E004884C8 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F01F55EE2BDAC57C004884C8 = {
+			isa = PBXGroup;
+			children = (
+				F01F55F92BDAC57C004884C8 /* wiif_scanner */,
+				F01F560B2BDAC57E004884C8 /* wiif_scannerTests */,
+				F01F56152BDAC57E004884C8 /* wiif_scannerUITests */,
+				F01F55F82BDAC57C004884C8 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F01F55F82BDAC57C004884C8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F01F55F72BDAC57C004884C8 /* wiif_scanner.app */,
+				F01F56082BDAC57E004884C8 /* wiif_scannerTests.xctest */,
+				F01F56122BDAC57E004884C8 /* wiif_scannerUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F01F55F92BDAC57C004884C8 /* wiif_scanner */ = {
+			isa = PBXGroup;
+			children = (
+				F01F55FA2BDAC57C004884C8 /* wiif_scannerApp.swift */,
+				F01F55FC2BDAC57C004884C8 /* ContentView.swift */,
+				F01F55FE2BDAC57D004884C8 /* Assets.xcassets */,
+				F01F56032BDAC57D004884C8 /* wiif_scanner.entitlements */,
+				F01F56002BDAC57D004884C8 /* Preview Content */,
+			);
+			path = wiif_scanner;
+			sourceTree = "<group>";
+		};
+		F01F56002BDAC57D004884C8 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				F01F56012BDAC57D004884C8 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F01F560B2BDAC57E004884C8 /* wiif_scannerTests */ = {
+			isa = PBXGroup;
+			children = (
+				F01F560C2BDAC57E004884C8 /* wiif_scannerTests.swift */,
+			);
+			path = wiif_scannerTests;
+			sourceTree = "<group>";
+		};
+		F01F56152BDAC57E004884C8 /* wiif_scannerUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F01F56162BDAC57E004884C8 /* wiif_scannerUITests.swift */,
+				F01F56182BDAC57E004884C8 /* wiif_scannerUITestsLaunchTests.swift */,
+			);
+			path = wiif_scannerUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F01F55F62BDAC57C004884C8 /* wiif_scanner */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F01F561C2BDAC57E004884C8 /* Build configuration list for PBXNativeTarget "wiif_scanner" */;
+			buildPhases = (
+				F01F55F32BDAC57C004884C8 /* Sources */,
+				F01F55F42BDAC57C004884C8 /* Frameworks */,
+				F01F55F52BDAC57C004884C8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = wiif_scanner;
+			productName = wiif_scanner;
+			productReference = F01F55F72BDAC57C004884C8 /* wiif_scanner.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F01F56072BDAC57E004884C8 /* wiif_scannerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F01F561F2BDAC57E004884C8 /* Build configuration list for PBXNativeTarget "wiif_scannerTests" */;
+			buildPhases = (
+				F01F56042BDAC57E004884C8 /* Sources */,
+				F01F56052BDAC57E004884C8 /* Frameworks */,
+				F01F56062BDAC57E004884C8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F01F560A2BDAC57E004884C8 /* PBXTargetDependency */,
+			);
+			name = wiif_scannerTests;
+			productName = wiif_scannerTests;
+			productReference = F01F56082BDAC57E004884C8 /* wiif_scannerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F01F56112BDAC57E004884C8 /* wiif_scannerUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F01F56222BDAC57E004884C8 /* Build configuration list for PBXNativeTarget "wiif_scannerUITests" */;
+			buildPhases = (
+				F01F560E2BDAC57E004884C8 /* Sources */,
+				F01F560F2BDAC57E004884C8 /* Frameworks */,
+				F01F56102BDAC57E004884C8 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F01F56142BDAC57E004884C8 /* PBXTargetDependency */,
+			);
+			name = wiif_scannerUITests;
+			productName = wiif_scannerUITests;
+			productReference = F01F56122BDAC57E004884C8 /* wiif_scannerUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F01F55EF2BDAC57C004884C8 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					F01F55F62BDAC57C004884C8 = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					F01F56072BDAC57E004884C8 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = F01F55F62BDAC57C004884C8;
+					};
+					F01F56112BDAC57E004884C8 = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = F01F55F62BDAC57C004884C8;
+					};
+				};
+			};
+			buildConfigurationList = F01F55F22BDAC57C004884C8 /* Build configuration list for PBXProject "wiif_scanner" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F01F55EE2BDAC57C004884C8;
+			productRefGroup = F01F55F82BDAC57C004884C8 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F01F55F62BDAC57C004884C8 /* wiif_scanner */,
+				F01F56072BDAC57E004884C8 /* wiif_scannerTests */,
+				F01F56112BDAC57E004884C8 /* wiif_scannerUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F01F55F52BDAC57C004884C8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F01F56022BDAC57D004884C8 /* Preview Assets.xcassets in Resources */,
+				F01F55FF2BDAC57D004884C8 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F01F56062BDAC57E004884C8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F01F56102BDAC57E004884C8 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F01F55F32BDAC57C004884C8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F01F55FD2BDAC57C004884C8 /* ContentView.swift in Sources */,
+				F01F55FB2BDAC57C004884C8 /* wiif_scannerApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F01F56042BDAC57E004884C8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F01F560D2BDAC57E004884C8 /* wiif_scannerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F01F560E2BDAC57E004884C8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F01F56192BDAC57E004884C8 /* wiif_scannerUITestsLaunchTests.swift in Sources */,
+				F01F56172BDAC57E004884C8 /* wiif_scannerUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F01F560A2BDAC57E004884C8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F01F55F62BDAC57C004884C8 /* wiif_scanner */;
+			targetProxy = F01F56092BDAC57E004884C8 /* PBXContainerItemProxy */;
+		};
+		F01F56142BDAC57E004884C8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F01F55F62BDAC57C004884C8 /* wiif_scanner */;
+			targetProxy = F01F56132BDAC57E004884C8 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		F01F561A2BDAC57E004884C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F01F561B2BDAC57E004884C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		F01F561D2BDAC57E004884C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = wiif_scanner/wiif_scanner.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"wiif_scanner/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "gopro.wiif-scanner";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		F01F561E2BDAC57E004884C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = wiif_scanner/wiif_scanner.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"wiif_scanner/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "gopro.wiif-scanner";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		F01F56202BDAC57E004884C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "gopro.wiif-scannerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/wiif_scanner.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/wiif_scanner";
+			};
+			name = Debug;
+		};
+		F01F56212BDAC57E004884C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 14.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "gopro.wiif-scannerTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/wiif_scanner.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/wiif_scanner";
+			};
+			name = Release;
+		};
+		F01F56232BDAC57E004884C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "gopro.wiif-scannerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = wiif_scanner;
+			};
+			name = Debug;
+		};
+		F01F56242BDAC57E004884C8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "gopro.wiif-scannerUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = wiif_scanner;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F01F55F22BDAC57C004884C8 /* Build configuration list for PBXProject "wiif_scanner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F01F561A2BDAC57E004884C8 /* Debug */,
+				F01F561B2BDAC57E004884C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F01F561C2BDAC57E004884C8 /* Build configuration list for PBXNativeTarget "wiif_scanner" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F01F561D2BDAC57E004884C8 /* Debug */,
+				F01F561E2BDAC57E004884C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F01F561F2BDAC57E004884C8 /* Build configuration list for PBXNativeTarget "wiif_scannerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F01F56202BDAC57E004884C8 /* Debug */,
+				F01F56212BDAC57E004884C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F01F56222BDAC57E004884C8 /* Build configuration list for PBXNativeTarget "wiif_scannerUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F01F56232BDAC57E004884C8 /* Debug */,
+				F01F56242BDAC57E004884C8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F01F55EF2BDAC57C004884C8 /* Project object */;
+}
