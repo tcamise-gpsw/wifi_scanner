@@ -45,6 +45,7 @@
 		F01F56122BDAC57E004884C8 /* wiif_scannerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = wiif_scannerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F01F56162BDAC57E004884C8 /* wiif_scannerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = wiif_scannerUITests.swift; sourceTree = "<group>"; };
 		F01F56182BDAC57E004884C8 /* wiif_scannerUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = wiif_scannerUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F01F56252BDAD2BD004884C8 /* wiif-scanner-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "wiif-scanner-Info.plist"; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +96,7 @@
 		F01F55F92BDAC57C004884C8 /* wiif_scanner */ = {
 			isa = PBXGroup;
 			children = (
+				F01F56252BDAD2BD004884C8 /* wiif-scanner-Info.plist */,
 				F01F55FA2BDAC57C004884C8 /* wiif_scannerApp.swift */,
 				F01F55FC2BDAC57C004884C8 /* ContentView.swift */,
 				F01F55FE2BDAC57D004884C8 /* Assets.xcassets */,
@@ -421,12 +423,16 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = wiif_scanner/wiif_scanner.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"wiif_scanner/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "wiif-scanner-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Wifi Scanner";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.navigation";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -446,12 +452,16 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = wiif_scanner/wiif_scanner.entitlements;
+				"CODE_SIGN_IDENTITY[sdk=macosx*]" = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"wiif_scanner/Preview Content\"";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "wiif-scanner-Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Wifi Scanner";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.navigation";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
